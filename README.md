@@ -11,8 +11,8 @@ This guide assumes you have Docker installed and accessible from your command li
 ### Setup
 
 1. Clone the repository:
-   ```bash   https://github.com/kartikvermaa/ec2-.git
-
+   ```bash   
+   https://github.com/kartikvermaa/ec2-.git
    ```
 
 2. Navigate to the project directory:

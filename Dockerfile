@@ -37,5 +37,7 @@ RUN ssh-keygen -A
 
 EXPOSE 22
 EXPOSE 2375
+EXPOSE 9000
+EXPOSE 5000
 
 CMD ["sh", "-c", "dockerd & service ssh start && tail -f /dev/null"]

@@ -6,6 +6,8 @@ services:
     ports:
       - "3022:22"
       - "2375:2375"
+      - "5000:5000"
+      - "9000:9000"
     volumes:
       - ec2_data:/home/ubuntu
     # deploy:
